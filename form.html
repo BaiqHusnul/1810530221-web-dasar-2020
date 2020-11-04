@@ -1,12 +1,17 @@
 <html>
 <head>
 	<title>Form</title>
+
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+
 </head>
 <body>
-	<h2>Form Biodata</h2>
+	<div class="container">
+	<h2 class="alert alert-primary"><p align="center">Form Biodata</p></h2>
 	<hr>
 
-	<form>
+	<form method="post" action="#">
+
 		<label>NIM :</label>
 		<input type="text" name="txtnim" size="20" maxlength="15" placeholder="Masukkan NIM">
 		<br>
@@ -27,10 +32,11 @@
 		<input type="radio" value="P" name="rbjk"> Perempuan
 		<br>
 
-		<input type="submit" value="Simpan">
-		<input type="reset" value="Batal">
+		<input class="btn btn-primary" type="submit" value="Simpan">
+		<input class="btn btn-danger" type="reset" value="Batal">
 
 	</form>
 
+	</div>
 </body>
 </html>
