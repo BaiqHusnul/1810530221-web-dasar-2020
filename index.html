@@ -1,9 +1,23 @@
 <html>
+
 <head>
 	<title>Belajar</title>
+	<!-- Internal css -->
+
+	<style>
+
+		.merah {
+			color: red;
+		}	
+		
+	</style>
+
+	<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-	<h1>Belajar HTML</h1>
+	<!-- inlinecss -->
+	<h1 style="color: #F00; font-family: georgia;">Belajar HTML</h1>
 	<hr>
 	<p align="center">
 		<b>Lorem </b> <u> ipsum dolor sit </u> amet, <u><i> consectetur </i></u> <br> <br> adipisicing elit, sed do eiusmod
@@ -16,10 +30,19 @@
 
 	<!-- membuat list -->
 	<h2>Unorder list</h2>
-	<ul>
+	<ul type="square" class="merah miring">
 		<li>Remote</li>
 		<li>Spidol</li>
 	</ul>
+
+	<h2>Order List</h2>
+
+	<ol type="I" start="8" class="miring">
+		<li>Spidol lagi</li>
+		<li>Mouse</li>
+		<li>Keyboard</li>
+		<li>Monitor</li>
+	</ol>
 
 </body>
 </html>
